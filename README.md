@@ -1,6 +1,6 @@
 # Banking Transaction & Capital Markets Trade Management System (SQL)
 
-A **portfolio-ready SQL project** that combines **core banking operations** (customers, accounts, money transfers) with **capital markets trading** (instruments, trades, portfolio holdings). Designed to showcase **stored procedures, triggers, indexing and reporting views** for a SQL Developer role.
+A **SQL project** that combines **core banking operations** (customers, accounts, money transfers) with **capital markets trading** (instruments, trades, portfolio holdings). Designed to showcase **stored procedures, triggers, indexing and reporting views** for a SQL Developer role.
 
 ---
 
@@ -31,27 +31,7 @@ A **portfolio-ready SQL project** that combines **core banking operations** (cus
 
 ---
 
-## 📁 Project Structure
 
-```
-bank_capital_sql_project/
-│
-├── sql/
-│   ├── 01_schema.sql
-│   ├── 02_tables.sql
-│   ├── 03_demo_data.sql
-│   ├── 04_views.sql
-│   ├── 05_procedures.sql
-│   ├── 06_triggers.sql
-│   ├── 07_indexes.sql
-│   └── 08_demo_queries.sql
-│
-├── docs/
-│   ├── project_overview.md
-│   └── interview_script.md
-│
-└── README.md
-```
 
 ---
 
@@ -123,11 +103,7 @@ ORDER BY created_at DESC;
 
 ---
 
-## 📌 Interview Explanation (30-45 sec)
 
-> “I built a Banking and Capital Markets SQL system. Core banking includes customers, accounts and a transactions ledger. I implemented a bank-grade `transfer_money()` stored procedure with row-level locks and deterministic lock ordering to prevent deadlocks under concurrent transfers. For compliance, I created triggers capturing INSERT/UPDATE/DELETE changes on accounts into an `audit_log` with old and new JSON values. On the capital markets side, I modeled instruments, trades and portfolio holdings with an `execute_trade()` procedure that updates cash and holdings. I added composite indexes and validated performance using `EXPLAIN ANALYZE`, and created views for reporting: `account_summary` and `portfolio_summary`.”
-
----
 
 ## 🔮 Future Enhancements
 
@@ -140,5 +116,5 @@ ORDER BY created_at DESC;
 
 ## 👤 Author
 
-**Manoj Kumar** (Portfolio Project)
+**Manoj Kumar** 
 # Banking-transactions-and-account-management-system
