@@ -1,4 +1,4 @@
-# 🏦 Banking / Capital Markets SQL Project (PostgreSQL)
+# 🏦 Banking-transactions-and-account-management-system
 
 An end-to-end PostgreSQL database project simulating a simplified Banking/Capital Markets system.  
 This project demonstrates schema design, transaction-safe fund transfers using stored procedures, trigger-based audit logging for compliance, reporting views, and query performance analysis using `EXPLAIN ANALYZE`.
